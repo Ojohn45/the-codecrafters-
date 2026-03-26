@@ -1,0 +1,34 @@
+package main
+
+import "fmt"
+
+func main() {
+    var oper int
+    var cal1 int
+    var cal2 int
+
+start:
+    fmt.Println("Enter calculation: ")
+    fmt.Scan(&cal1)
+
+    fmt.Println("Enter calculation: ")
+    fmt.Scan(&cal2)
+
+    fmt.Println("Which operation would you like add[1], sub[2], mul[3], div[4]: ")
+    fmt.Scan(&oper)
+
+    a := cal1
+    b := cal2
+
+    if oper == 1 {
+        fmt.Println("Adding: ", fmt.Sprint(a+b))
+    } else if oper == 2 {
+        fmt.Println("Subtracting: ", fmt.Sprint(a-b))
+    } else if oper == 3 {
+        fmt.Println("Multiplying: ", fmt.Sprint(a*b))
+    } else if oper == 4 {
+        fmt.Println("Dividing: ", fmt.Sprint(a/b))
+    }
+    fmt.Println("Calculation done")
+    goto start
+}
