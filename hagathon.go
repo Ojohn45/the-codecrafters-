@@ -9,16 +9,18 @@ func main() {
 
 	for {
         start:
-		fmt.Println("Enter calculation: ")
+		fmt.Println("Enter Fist no: ")
 		_, err1 := fmt.Scan(&cal1)
 
 
-		fmt.Println("Enter calculation: ")
-        _, err2 := fmt.Scan(&cal2)
+		fmt.Println("Enter second no: ")
+        fmt.Scan(&cal2)
 
-        if err1 != nil || err2 != nil {
+        if err1 != nil  {
             fmt.Println("Input a valid number:")
             goto start
+        } else {
+            continue
         }
 
 		fmt.Println("Which operation would you like Add[1], Sub[2], Mul[3], Div[4], Quit[5]: ")
