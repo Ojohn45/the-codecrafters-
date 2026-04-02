@@ -12,4 +12,4 @@ Like arrays, slices store multiple values of the same type in a single variable.
 
 ### Modifing a Slice
 Go can access, change, append and copy slices. You can access elements of a slice or a specif index at [0] is the first element, and indext [1] is the second element, etc. You can also changea specif elementof a slice if you want to. you can do manny thing with slices like, Append Elements To a Slice, Append One Slice To Another Slice, or even 
-Change The Length of a Slice and it is also good for Memory Efficiency
+Change The Length of a Slice and it is also good for Memory Efficiency.
