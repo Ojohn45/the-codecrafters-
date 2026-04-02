@@ -1,6 +1,4 @@
 ### Go For Loops
-Here’s a simple and easy-to-understand summary:
-
 A for loop in Go is used to repeat a block of code multiple times. It is the only loop available in Go, and each time it runs is called an iteration.
 
 The loop usually has three parts:
